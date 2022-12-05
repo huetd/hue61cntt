@@ -12,4 +12,4 @@ public class lab3 {
 		System.out.print(V);
 	}
 
-}
+ket thuc roi nha
