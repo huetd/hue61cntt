@@ -19,14 +19,13 @@ void mainmenu()
 	int choice;
 	int back;
 
- printf("\n\n\t\t(a) Press 0 to Exit.\n");
- 
- printf("\t\t(b) Press 1 to Login as admin.\n");
- printf("\t\t(c) Press 2 to Register as admin.\n");
- printf("\t\t(d) Press 3 to Login as Passenger.\n");
- printf("\t\t(e) Press 4 to Register as Passenger.\n");
- printf("\t\t(f) Press 5 to Display the User Manual.\n");
- printf("\t\tEnter the desired option:    ");
+ cout<<"\n\n\t\t(a) Press 0 to Exit."<<endl;
+ cout<<"\t\t(b) Press 1 to Login as admin."<<endl;
+ cout<<"\t\t(c) Press 2 to Register as admin."<<endl;
+ cout<<"\t\t(d) Press 3 to Login as Passenger."<<endl;
+ cout<<"\t\t(e) Press 4 to Register as Passenger."<<endl;
+ cout<<"\t\t(f) Press 5 to Display the User Manual."<<endl;
+ cout<<"\t\tEnter the desired option:    ";
  cin>>choice;
  if(choice > 5)
  {
